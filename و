@@ -1,0 +1,679 @@
+You are a senior frontend engineer, UI/UX designer, animation specialist, and website optimization expert.
+
+IMPORTANT:
+Do NOT start a new project from scratch.
+Do NOT use Next.js.
+Do NOT use React.
+Do NOT use TypeScript.
+Do NOT use Tailwind.
+Do NOT introduce any framework.
+
+You must work directly on the existing GREEN BOYS project and transform it into a professional production-ready STATIC website.
+
+==================================================
+PROJECT GOAL
+==================================================
+
+Build a premium, modern, highly polished GREEN BOYS ($GBS) website inspired by the provided reference design.
+
+The final website must work on normal/shared hosting with NO Node.js requirement.
+
+The final structure MUST be:
+
+/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── images/
+    ├── icons/
+    ├── logo/
+    └── fonts/
+
+Only use:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GSAP via CDN if needed
+- External fonts via CDN if needed
+
+No React.
+No Next.js.
+No TypeScript.
+No JSX.
+No npm.
+No build system.
+No framework.
+
+==================================================
+FIRST: AUDIT THE EXISTING PROJECT
+==================================================
+
+Before changing anything:
+
+1. Inspect every existing file.
+2. Inspect every existing image, PNG, icon and logo.
+3. Identify which assets belong to the GREEN BOYS design.
+4. Check all current HTML/CSS/JS.
+5. Find every broken reference.
+6. Find every missing file.
+7. Find incorrect paths.
+8. Find layout problems.
+9. Find responsive problems.
+10. Find JavaScript errors.
+11. Find duplicated code.
+12. Find unused code.
+13. Find elements positioned incorrectly.
+14. Check image dimensions and aspect ratios.
+15. Check typography and spacing.
+16. Check mobile and tablet layouts.
+
+Do NOT delete useful existing assets.
+
+Reuse the provided GREEN BOYS assets whenever possible.
+
+==================================================
+CRITICAL REQUIREMENT
+==================================================
+
+The website must NOT look like a generic AI-generated template.
+
+It must feel like a real premium Web3/memecoin brand website designed by a professional agency.
+
+Every element must have a clear purpose.
+
+Do not randomly add components.
+
+Do not randomly change the visual identity.
+
+Preserve the GREEN BOYS identity:
+
+- Black / near-black background
+- Neon green
+- Luxury gold
+- Dark green
+- Subtle metallic effects
+- Premium futuristic Web3 aesthetic
+- Alien mascot
+- GBS branding
+- Cinematic atmosphere
+
+==================================================
+HEADER
+==================================================
+
+Create a professional responsive header matching the reference.
+
+Desktop:
+
+LEFT:
+- GREEN BOYS logo
+- Correct logo proportions
+- Proper spacing
+
+CENTER:
+- HOME
+- ABOUT
+- TOKENOMICS
+- ROADMAP
+- MERCH
+- BLOG
+- CONTACT
+
+RIGHT:
+- X/Twitter icon
+- Telegram icon
+- Discord icon
+- BUY $GBS button
+
+Requirements:
+
+- Sticky header
+- Transparent initially
+- Smooth background transition after scrolling
+- Backdrop blur
+- Subtle border
+- Premium hover effects
+- Active navigation indicator
+- Smooth scrolling
+- Correct spacing
+- No overlapping elements
+
+Mobile:
+
+- Hamburger menu
+- Animated menu opening
+- Full responsive navigation
+- Proper close button
+- Social icons
+- BUY $GBS CTA
+- Prevent body scrolling while menu is open
+
+==================================================
+HERO SECTION
+==================================================
+
+The hero must be the strongest section on the website.
+
+Use the supplied GREEN BOYS alien PNG and other assets correctly.
+
+LAYOUT:
+
+LEFT:
+- Small green eyebrow text
+- Large GREEN BOYS headline
+- Professional tagline
+- Short description
+- BUY $GBS CTA
+- JOIN COMMUNITY CTA
+- Social icons
+- Supporting information
+
+RIGHT:
+- GREEN BOYS alien character
+- Coin / GBS visual where available
+- Cinematic glow
+- Depth effects
+- Subtle floating animation
+- Premium lighting
+- Correct positioning
+
+IMPORTANT:
+
+Do NOT stretch images.
+
+Do NOT distort PNGs.
+
+Do NOT crop the mascot incorrectly.
+
+Do NOT place images randomly.
+
+Maintain correct proportions.
+
+Create depth using:
+
+- radial gradients
+- glow
+- blur
+- shadows
+- opacity layers
+- subtle particles
+- parallax
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use professional animations, NOT excessive animations.
+
+Use GSAP where useful.
+
+Include:
+
+- Hero entrance animation
+- Text stagger
+- Image fade/scale entrance
+- Floating mascot
+- Subtle parallax
+- Mouse movement parallax on desktop
+- Glow pulse
+- Button hover animation
+- Card hover animation
+- Navigation hover animation
+- Scroll reveal animations
+- Smooth section transitions
+- Mobile menu animation
+
+Animations must remain smooth and lightweight.
+
+Respect:
+
+prefers-reduced-motion
+
+Users who disable animations should receive a simplified experience.
+
+==================================================
+STAT CARDS
+==================================================
+
+Create a premium stats section inspired by the reference.
+
+Example structure:
+
+COMMUNITY
+25K+ HOLDERS
+
+MISSION
+1 TO THE MOON
+
+LIQUIDITY
+100% LOCKED
+
+SECURITY
+AUDITED CONTRACT
+
+IMPORTANT:
+
+These values are only placeholders.
+
+Do NOT present unverified claims as real facts.
+
+Make all statistics easy to edit from HTML.
+
+Use premium glass/dark cards with:
+
+- subtle green glow
+- gold accents
+- icons
+- hover elevation
+- animated border
+- responsive layout
+
+==================================================
+FEATURE CARDS
+==================================================
+
+Create five professional cards:
+
+COMMUNITY FIRST
+SECURE & TRUSTED
+DEFLATIONARY
+FAST & CHEAP
+GLOBAL MOVEMENT
+
+Use the supplied icons when available.
+
+Each card should contain:
+
+- Icon
+- Title
+- Short description
+- Hover animation
+- Green/gold glow
+- Proper spacing
+
+Do not make cards oversized.
+
+==================================================
+VISUAL SYSTEM
+==================================================
+
+Create a consistent design system.
+
+Colors:
+
+Background:
+#030706 / near-black
+
+Neon green:
+#9DFF00 or a close premium green
+
+Gold:
+#D4AF37 / luxury gold
+
+White:
+#F5F5F5
+
+Muted:
+rgba(255,255,255,.65)
+
+Use gradients carefully.
+
+Avoid excessive neon.
+
+The result must look luxurious, not cheap.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Use professional fonts.
+
+Recommended:
+
+Orbitron for:
+
+- Logo text
+- Main headings
+- Navigation
+- Buttons
+- Important numbers
+
+Inter for:
+
+- Paragraphs
+- Descriptions
+- Supporting text
+
+Make sure typography is loaded correctly.
+
+Do not depend on local fonts unless they exist in:
+
+assets/fonts/
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+The website must be perfect on:
+
+- 1920px
+- 1600px
+- 1440px
+- 1366px
+- 1280px
+- 1024px
+- 768px
+- 540px
+- 430px
+- 390px
+- 375px
+- 360px
+
+Check:
+
+- No horizontal scrolling
+- No overlapping
+- No cut-off text
+- No distorted images
+- No broken navigation
+- No elements outside viewport
+- Correct spacing
+- Correct font scaling
+- Correct image scaling
+
+Mobile must NOT simply be a smaller desktop.
+
+Create a proper mobile composition.
+
+==================================================
+JAVASCRIPT
+==================================================
+
+Create clean Vanilla JavaScript.
+
+script.js must handle:
+
+- Mobile navigation
+- Smooth scrolling
+- Header scroll state
+- Scroll reveal
+- GSAP animations
+- Parallax
+- Button interactions
+- Active navigation state
+- Any counters if appropriate
+- Accessibility behavior
+
+Avoid unnecessary JavaScript.
+
+Use event delegation where appropriate.
+
+No console errors.
+
+==================================================
+ASSETS
+==================================================
+
+Organize all assets correctly.
+
+Move/copy assets into:
+
+assets/images/
+assets/icons/
+assets/logo/
+assets/fonts/
+
+Use relative paths only.
+
+Example:
+
+assets/images/alien.png
+assets/images/hero-bg.png
+assets/icons/twitter.svg
+assets/icons/telegram.svg
+assets/logo/logo.png
+
+Do NOT use paths such as:
+
+/public/...
+/src/...
+/_next/...
+@/...
+
+Everything must work from index.html.
+
+==================================================
+IMAGE OPTIMIZATION
+==================================================
+
+Optimize image usage.
+
+Do not destroy image quality.
+
+Use:
+
+- width/height attributes where appropriate
+- object-fit correctly
+- lazy loading for images below the fold
+- WebP where useful, while preserving original assets
+- correct aspect ratios
+
+Hero images should load quickly.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Add:
+
+- semantic HTML
+- alt attributes
+- aria-labels
+- keyboard navigation
+- visible focus states
+- correct button elements
+- accessible mobile menu
+- sufficient text contrast
+
+==================================================
+SEO
+==================================================
+
+index.html must contain:
+
+- title
+- meta description
+- viewport
+- theme-color
+- Open Graph metadata
+- Twitter card metadata
+- favicon
+- semantic headings
+
+Use a professional title such as:
+
+GREEN BOYS — The Next Generation Meme Coin
+
+Do not make unsupported financial promises.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize the website for performance.
+
+Avoid:
+
+- huge unnecessary JavaScript
+- excessive blur
+- excessive box-shadow
+- animation on hundreds of elements
+- layout thrashing
+- unnecessary DOM manipulation
+
+Use CSS transforms for animations.
+
+Use requestAnimationFrame only when necessary.
+
+==================================================
+CODE QUALITY
+==================================================
+
+Write clean production-quality code.
+
+HTML:
+
+- semantic
+- organized
+- readable
+
+CSS:
+
+- variables
+- reusable classes
+- organized sections
+- responsive breakpoints
+- no unnecessary duplication
+
+JavaScript:
+
+- modular
+- readable
+- defensive
+- no errors
+
+Add comments only where they actually help.
+
+==================================================
+VERY IMPORTANT: DO NOT FAKE FUNCTIONALITY
+==================================================
+
+If a button requires an actual URL that does not exist yet:
+
+Use a clearly editable placeholder.
+
+Example:
+
+const BUY_URL = "#";
+
+const TWITTER_URL = "#";
+
+const TELEGRAM_URL = "#";
+
+const DISCORD_URL = "#";
+
+Do NOT invent contract addresses.
+
+Do NOT invent audit links.
+
+Do NOT invent social accounts.
+
+Do NOT claim the token is audited, liquidity locked, renounced, or launched unless real information is provided.
+
+==================================================
+FINAL FILE STRUCTURE
+==================================================
+
+The final project MUST look like:
+
+GREEN-BOYS/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── assets/
+    ├── images/
+    │   ├── hero/
+    │   ├── characters/
+    │   └── backgrounds/
+    │
+    ├── icons/
+    │
+    ├── logo/
+    │
+    └── fonts/
+
+No:
+
+- app/
+- src/
+- components/
+- package.json
+- next.config.js
+- tsconfig.json
+- tailwind.config.js
+- React files
+- TypeScript files
+
+The static website must be completely independent.
+
+==================================================
+FINAL TEST
+==================================================
+
+After rebuilding:
+
+1. Open index.html directly.
+2. Verify the page loads.
+3. Verify every image loads.
+4. Verify every icon loads.
+5. Verify every navigation link works.
+6. Verify mobile menu works.
+7. Verify all animations work.
+8. Verify there are no JavaScript errors.
+9. Verify there are no broken asset paths.
+10. Verify there is no horizontal scrolling.
+11. Verify desktop layout.
+12. Verify tablet layout.
+13. Verify mobile layout.
+14. Verify keyboard navigation.
+15. Verify reduced-motion behavior.
+
+IMPORTANT:
+
+Do not simply tell me that the project is finished.
+
+Actually inspect and modify the files.
+
+If you find errors, fix them yourself.
+
+If an existing implementation is bad, replace that part with a better implementation.
+
+Do not stop after creating only index.html.
+
+The final result must be a complete, polished, upload-ready static GREEN BOYS website.
+
+==================================================
+DESIGN PRIORITY
+==================================================
+
+Priority order:
+
+1. Professional visual quality
+2. Correct positioning
+3. Correct asset usage
+4. Responsive behavior
+5. Smooth animations
+6. Performance
+7. Accessibility
+8. Clean code
+9. Easy future editing
+
+DO NOT add new sections such as Tokenomics, Roadmap, Merch, Blog or Contact content yet unless they already exist.
+
+For this stage, focus on making the existing Header + Hero + Stats + Feature area extremely polished and structurally ready for the next sections.
+
+When finished, give me a concise report containing:
+
+- Files created
+- Files modified
+- Assets organized
+- Errors fixed
+- Responsive status
+- Animation status
+- Any remaining placeholders
+
+Do not use Next.js, React, TypeScript or npm under any circumstances.
